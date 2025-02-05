@@ -1,8 +1,8 @@
 # Configure the CloudStack Provider
 provider "cloudstack" {
-  api_url    = "${var.cloudstack_api_url}"
-  api_key    = "${var.cloudstack_api_key}"
-  secret_key = "${var.cloudstack_secret_key}"
+  api_url    = "http://10.10.0.2:8080/client/api"
+  api_key    = "J35NB7yYjDA-IekyKx2cPmO7Bn-UB24DpcUrYQR0xU_EquXwUtTUyyu-U8e-rNgICGbkJeED8oWaW5n57KKuiQ"
+  secret_key = "4CU4MNxXZD46x6QQib2nzTQTzo7dpnjEGmjMsjL8_9Hi4N9B_zR_an1IDNWWb_9Dq2bFbkhAWDZgRta1bYFCHA"
 }
 
 # Create a web server
