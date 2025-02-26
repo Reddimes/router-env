@@ -17,7 +17,7 @@ provider "cloudstack" {
 # Create a web server
 resource "cloudstack_instance" "web" {
   name             = "server-1"
-  service_offering = "Small Instance"
+  service_offering = "Kubernetes Instance"
   network_id       = "02a42686-823a-411a-a1fc-d93fa6e51c74"
   template         = "41b1cd8f-bc93-4cdd-8dda-cfe389eab22d"
   zone             = "8f8716ec-daf6-4f23-ab54-d7b152693ef9"
