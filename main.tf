@@ -17,7 +17,7 @@ provider "cloudstack" {
 # Create a web server
 resource "cloudstack_instance" "web" {
   name             = "server-1"
-  service_offering = "small"
+  service_offering = "8f8716ec-daf6-4f23-ab54-d7b152693ef9"
   network_id       = "02a42686-823a-411a-a1fc-d93fa6e51c74"
   template         = "Ubuntu Noble"
   zone             = "8f8716ec-daf6-4f23-ab54-d7b152693ef9"
