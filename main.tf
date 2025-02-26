@@ -1,3 +1,12 @@
+terraform {
+  required_providers {
+    cloudstack = {
+      source = "local/cloudstack/cloudstack"
+      version = "0.5.0"
+    }
+  }
+}
+
 # Configure the CloudStack Provider
 provider "cloudstack" {
   api_url    = "http://10.10.0.2:8080/client/api"
