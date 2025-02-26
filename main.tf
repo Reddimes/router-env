@@ -20,4 +20,5 @@ resource "cloudstack_instance" "web" {
   service_offering = "small"
   network_id       = "02a42686-823a-411a-a1fc-d93fa6e51c74"
   template         = "Ubuntu Noble"
+  zone             = "8f8716ec-daf6-4f23-ab54-d7b152693ef9"
 }
